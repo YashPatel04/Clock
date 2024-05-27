@@ -1,0 +1,20 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YashPatel04/Clock.git"
+  },
+  "scripts": {
+    "start": "browserify index.js -o bundle.js && live-server"
+  },
+  "author": "Yash Patel",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "live-server": "^1.2.2",
+    "moment": "^2.30.1"
+  }
+}

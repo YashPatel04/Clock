@@ -1,0 +1,34 @@
+body{
+    overflow: hidden;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    width: 80vw; 
+}
+#loc{
+    justify-content: flex-end;
+}
+#dayndate{
+    justify-content:flex-end;
+}
+@media screen and (min-width: 940px) {
+  #section{
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }  
+  .content{
+    margin-right: .10vw;
+    margin-left: .10vw
+    margin-top: 0.25vh;
+    margin-bottom:0.25vh;
+  }
+}
