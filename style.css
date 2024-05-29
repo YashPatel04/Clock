@@ -1,12 +1,13 @@
 body{
     overflow: hidden;
+    margin: 5px;
 }
+
 .content{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border: 2px solid black;
-    width: 80vw; 
+    width: 40vw; 
 }
 #loc{
     justify-content: flex-end;
@@ -16,19 +17,30 @@ body{
 }
 @media screen and (min-width: 940px) {
   #section{
-    width: 80vw;
-    height: 100vh;
+    height: 98vh;
     margin: 0 auto;
-    border: 2px solid black;
+    border: 3px solid black;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  }  
+    background-color: beige;
+} 
   .content{
     margin-right: .10vw;
-    margin-left: .10vw
+    margin-left: .10vw;
     margin-top: 0.25vh;
     margin-bottom:0.25vh;
+    font-family: "Source Code Pro"
+  }
+  #time{
+    font-size: 100px;
+    width: 50vw;
+    
+  }
+  #loc,#dayndate{
+    padding-right: 0vw;
+    font-size: 25px;
   }
 }
