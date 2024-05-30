@@ -45,3 +45,96 @@ body{
     width: 40vw;
   }
 }
+@media screen and (max-width: 1200px){
+  #section{
+    height: 98vh;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    background-color: black;
+} 
+  .content{
+    margin-right: .10vw;
+    margin-left: .10vw;
+    margin-top: 0.25vh;
+    margin-bottom:0.25vh;
+    font-family: "Source Code Pro"
+  }
+  #time{
+    font-size: 100px;
+    width: auto;
+    
+  }
+  #loc,#dayndate{
+    padding-right: 0vw;
+    font-size: 25px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 640px){
+  #section{
+    height: 98vh;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    background-color: black;
+} 
+  .content{
+    margin-right: .10vw;
+    margin-left: .10vw;
+    margin-top: 0.25vh;
+    margin-bottom:0.25vh;
+    font-family: "Source Code Pro";
+  }
+  #time{
+    font-size: 60px;
+    width: auto;
+  }
+  #loc,#dayndate{
+    padding: 5vw;
+    font-size: 20px;
+    width: 50vw;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 380px){
+  #section{
+    height: 98vh;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    background-color: black;
+} 
+  .content{
+    margin-right: .10vw;
+    margin-left: .10vw;
+    margin-top: 0.25vh;
+    margin-bottom:0.25vh;
+    font-family: "Source Code Pro";
+  }
+  #time{
+    font-size: 40px;
+    width: auto;
+  }
+  #loc,#dayndate{
+    padding: 5vw;
+    font-size: 15px;
+    width: auto;
+    justify-content: center;
+  }
+}

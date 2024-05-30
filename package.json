@@ -14,7 +14,6 @@
   "description": "",
   "dependencies": {
     "browserify": "^17.0.0",
-    "ipify": "^6.0.0",
     "moment": "^2.30.1",
     "node-iplocate": "^1.0.3"
   }

@@ -1,3 +1,4 @@
+require('dotenv').config();
 const moment = require('moment');
 const iplocate = require("node-iplocate");
 
@@ -8,7 +9,7 @@ fetch('https://api.ipify.org')
     .then((res)=> res.text())
     .then(ip => {
         address=ip;
-        iplocate(address).then(function(results){
+        iplocate(address, {api_key:"b049e2dc38a45f9eecfe2d2f66f6117f"}).then(function(results){
             console.log(results);
             location = results.city +", "+ results.country_code;
         });
