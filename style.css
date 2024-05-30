@@ -109,7 +109,7 @@ body{
 }
 @media screen and (max-width: 380px){
   #section{
-    height: 98vh;
+    height: 97vh;
     margin: 0 auto;
     border: 3px solid black;
     border-radius: 8px;
